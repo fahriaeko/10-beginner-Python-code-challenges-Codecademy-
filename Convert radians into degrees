@@ -1,1 +1,8 @@
+import math 
 
+def rad_to_deg():
+    rad = float(input("Radians: "))
+    deg = rad * (180/math.pi)
+    print("Degrees: ", deg)
+
+rad_to_deg()
